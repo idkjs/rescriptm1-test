@@ -19,7 +19,7 @@ function applyTwice(f, x) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch08_functionsContinued.re",
+          "ch08_functionsContinued.res",
           26,
           27
         ],
@@ -34,7 +34,7 @@ function addOne(x) {
 throw {
       RE_EXN_ID: "Assert_failure",
       _1: [
-        "ch08_functionsContinued.re",
+        "ch08_functionsContinued.res",
         33,
         13
       ],

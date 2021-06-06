@@ -14,8 +14,8 @@ if ("Sponge Bob" !== myHero) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch03_basic_syntax.re",
-          47,
+          "ch03_basic_syntax.res",
+          46,
           0
         ],
         Error: new Error()
@@ -41,8 +41,8 @@ function intAverage(x, y) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch03_basic_syntax.re",
-          133,
+          "ch03_basic_syntax.res",
+          126,
           27
         ],
         Error: new Error()
@@ -53,8 +53,8 @@ function floatAverage(x, y) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch03_basic_syntax.re",
-          139,
+          "ch03_basic_syntax.res",
+          132,
           29
         ],
         Error: new Error()
@@ -65,8 +65,8 @@ function square(x) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch03_basic_syntax.re",
-          145,
+          "ch03_basic_syntax.res",
+          138,
           18
         ],
         Error: new Error()
@@ -77,8 +77,8 @@ function fullName(firstName, middleName, lastName) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch03_basic_syntax.re",
-          151,
+          "ch03_basic_syntax.res",
+          144,
           52
         ],
         Error: new Error()
@@ -93,9 +93,9 @@ TestUtils$Part2Workshop.runTests("Ch03_basic_syntax-Part2Workshop", (function (p
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch03_basic_syntax.re",
-                        158,
-                        6
+                        "ch03_basic_syntax.res",
+                        147,
+                        55
                       ],
                       Error: new Error()
                     };
@@ -107,9 +107,9 @@ TestUtils$Part2Workshop.runTests("Ch03_basic_syntax-Part2Workshop", (function (p
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch03_basic_syntax.re",
-                        161,
-                        6
+                        "ch03_basic_syntax.res",
+                        148,
+                        57
                       ],
                       Error: new Error()
                     };
@@ -121,9 +121,9 @@ TestUtils$Part2Workshop.runTests("Ch03_basic_syntax-Part2Workshop", (function (p
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch03_basic_syntax.re",
-                        164,
-                        6
+                        "ch03_basic_syntax.res",
+                        149,
+                        50
                       ],
                       Error: new Error()
                     };
@@ -135,9 +135,9 @@ TestUtils$Part2Workshop.runTests("Ch03_basic_syntax-Part2Workshop", (function (p
                       throw {
                             RE_EXN_ID: "Assert_failure",
                             _1: [
-                              "ch03_basic_syntax.re",
-                              167,
-                              6
+                              "ch03_basic_syntax.res",
+                              151,
+                              4
                             ],
                             Error: new Error()
                           };

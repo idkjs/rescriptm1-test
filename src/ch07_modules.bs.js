@@ -11,7 +11,7 @@ if (true !== Example$Part2Workshop.isVowel(/* 'a' */97)) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch07_modules.re",
+          "ch07_modules.res",
           18,
           0
         ],
@@ -23,7 +23,7 @@ if (false !== Example$Part2Workshop.isVowel(/* 'b' */98)) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch07_modules.re",
+          "ch07_modules.res",
           19,
           0
         ],
@@ -57,7 +57,7 @@ if (4 !== List.length(nums)) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch07_modules.re",
+          "ch07_modules.res",
           55,
           0
         ],
@@ -81,7 +81,7 @@ if (!Caml_obj.caml_equal({
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch07_modules.re",
+          "ch07_modules.res",
           56,
           0
         ],

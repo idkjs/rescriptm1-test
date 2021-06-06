@@ -12,7 +12,7 @@ if (0 !== x.contents) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch15_refs.re",
+          "ch15_refs.res",
           10,
           0
         ],
@@ -26,7 +26,7 @@ if (1 !== x.contents) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch15_refs.re",
+          "ch15_refs.res",
           17,
           0
         ],
@@ -46,7 +46,7 @@ if (120 !== factorialWithForLoop(5)) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch15_refs.re",
+          "ch15_refs.res",
           32,
           0
         ],
@@ -68,7 +68,7 @@ if (120 !== factorialWithWhileLoop(5)) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch15_refs.re",
+          "ch15_refs.res",
           48,
           0
         ],
@@ -80,7 +80,7 @@ function minAndMax(nums) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch15_refs.re",
+          "ch15_refs.res",
           59,
           24
         ],
@@ -114,9 +114,9 @@ TestUtils$Part2Workshop.runTests("Ch15_refs-Part2Workshop", (function (param) {
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch15_refs.re",
-                        65,
-                        6
+                        "ch15_refs.res",
+                        62,
+                        45
                       ],
                       Error: new Error()
                     };
@@ -143,9 +143,9 @@ TestUtils$Part2Workshop.runTests("Ch15_refs-Part2Workshop", (function (param) {
                       throw {
                             RE_EXN_ID: "Assert_failure",
                             _1: [
-                              "ch15_refs.re",
-                              68,
-                              6
+                              "ch15_refs.res",
+                              63,
+                              45
                             ],
                             Error: new Error()
                           };

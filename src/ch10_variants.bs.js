@@ -39,7 +39,7 @@ function score(cardRank) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch10_variants.re",
+          "ch10_variants.res",
           54,
           24
         ],
@@ -51,7 +51,7 @@ function successor(cardRank) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch10_variants.re",
+          "ch10_variants.res",
           62,
           28
         ],
@@ -67,9 +67,9 @@ TestUtils$Part2Workshop.runTests("Ch10_variants-Part2Workshop", (function (param
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch10_variants.re",
-                        68,
-                        6
+                        "ch10_variants.res",
+                        65,
+                        56
                       ],
                       Error: new Error()
                     };
@@ -81,9 +81,9 @@ TestUtils$Part2Workshop.runTests("Ch10_variants-Part2Workshop", (function (param
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch10_variants.re",
-                        71,
-                        6
+                        "ch10_variants.res",
+                        66,
+                        56
                       ],
                       Error: new Error()
                     };
@@ -97,9 +97,9 @@ TestUtils$Part2Workshop.runTests("Ch10_variants-Part2Workshop", (function (param
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch10_variants.re",
-                        74,
-                        6
+                        "ch10_variants.res",
+                        67,
+                        56
                       ],
                       Error: new Error()
                     };
@@ -115,9 +115,9 @@ TestUtils$Part2Workshop.runTests("Ch10_variants-Part2Workshop", (function (param
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch10_variants.re",
-                        77,
-                        6
+                        "ch10_variants.res",
+                        68,
+                        56
                       ],
                       Error: new Error()
                     };
@@ -131,9 +131,9 @@ TestUtils$Part2Workshop.runTests("Ch10_variants-Part2Workshop", (function (param
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch10_variants.re",
-                        80,
-                        6
+                        "ch10_variants.res",
+                        69,
+                        57
                       ],
                       Error: new Error()
                     };
@@ -145,9 +145,9 @@ TestUtils$Part2Workshop.runTests("Ch10_variants-Part2Workshop", (function (param
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch10_variants.re",
-                        83,
-                        6
+                        "ch10_variants.res",
+                        70,
+                        61
                       ],
                       Error: new Error()
                     };
@@ -161,9 +161,9 @@ TestUtils$Part2Workshop.runTests("Ch10_variants-Part2Workshop", (function (param
                       throw {
                             RE_EXN_ID: "Assert_failure",
                             _1: [
-                              "ch10_variants.re",
-                              86,
-                              6
+                              "ch10_variants.res",
+                              71,
+                              61
                             ],
                             Error: new Error()
                           };

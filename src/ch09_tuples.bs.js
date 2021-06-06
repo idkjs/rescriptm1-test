@@ -10,7 +10,7 @@ if (s !== "hello") {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch09_tuples.re",
+          "ch09_tuples.res",
           13,
           0
         ],
@@ -42,7 +42,7 @@ if (!Caml_obj.caml_equal([
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch09_tuples.re",
+          "ch09_tuples.res",
           22,
           0
         ],
@@ -54,7 +54,7 @@ function string_of_point(point) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch09_tuples.re",
+          "ch09_tuples.res",
           31,
           42
         ],
@@ -66,9 +66,9 @@ function first(pair) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch09_tuples.re",
+          "ch09_tuples.res",
           39,
-          33
+          32
         ],
         Error: new Error()
       };
@@ -78,9 +78,9 @@ function second(pair) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch09_tuples.re",
+          "ch09_tuples.res",
           46,
-          34
+          33
         ],
         Error: new Error()
       };
@@ -105,9 +105,9 @@ TestUtils$Part2Workshop.runTests("Ch09_tuples-Part2Workshop", (function (param) 
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch09_tuples.re",
-                        73,
-                        6
+                        "ch09_tuples.res",
+                        70,
+                        4
                       ],
                       Error: new Error()
                     };
@@ -122,9 +122,9 @@ TestUtils$Part2Workshop.runTests("Ch09_tuples-Part2Workshop", (function (param) 
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch09_tuples.re",
-                        76,
-                        6
+                        "ch09_tuples.res",
+                        73,
+                        4
                       ],
                       Error: new Error()
                     };
@@ -139,9 +139,9 @@ TestUtils$Part2Workshop.runTests("Ch09_tuples-Part2Workshop", (function (param) 
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch09_tuples.re",
-                        79,
-                        6
+                        "ch09_tuples.res",
+                        75,
+                        56
                       ],
                       Error: new Error()
                     };
@@ -156,9 +156,9 @@ TestUtils$Part2Workshop.runTests("Ch09_tuples-Part2Workshop", (function (param) 
                       throw {
                             RE_EXN_ID: "Assert_failure",
                             _1: [
-                              "ch09_tuples.re",
-                              82,
-                              6
+                              "ch09_tuples.res",
+                              76,
+                              57
                             ],
                             Error: new Error()
                           };

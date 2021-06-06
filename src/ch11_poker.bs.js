@@ -26,9 +26,9 @@ TestUtils$Part2Workshop.runTests("Ch11_poker-Part2Workshop", (function (param) {
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch11_poker.re",
-                        41,
-                        6
+                        "ch11_poker.res",
+                        39,
+                        4
                       ],
                       Error: new Error()
                     };
@@ -43,9 +43,9 @@ TestUtils$Part2Workshop.runTests("Ch11_poker-Part2Workshop", (function (param) {
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch11_poker.re",
-                        48,
-                        6
+                        "ch11_poker.res",
+                        43,
+                        4
                       ],
                       Error: new Error()
                     };
@@ -60,9 +60,9 @@ TestUtils$Part2Workshop.runTests("Ch11_poker-Part2Workshop", (function (param) {
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch11_poker.re",
-                        52,
-                        6
+                        "ch11_poker.res",
+                        47,
+                        4
                       ],
                       Error: new Error()
                     };
@@ -74,9 +74,9 @@ TestUtils$Part2Workshop.runTests("Ch11_poker-Part2Workshop", (function (param) {
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch11_poker.re",
-                        56,
-                        6
+                        "ch11_poker.res",
+                        51,
+                        4
                       ],
                       Error: new Error()
                     };
@@ -88,9 +88,9 @@ TestUtils$Part2Workshop.runTests("Ch11_poker-Part2Workshop", (function (param) {
                       throw {
                             RE_EXN_ID: "Assert_failure",
                             _1: [
-                              "ch11_poker.re",
-                              69,
-                              6
+                              "ch11_poker.res",
+                              64,
+                              4
                             ],
                             Error: new Error()
                           };

@@ -16,7 +16,7 @@ if (whatNumberAmIThinking(undefined) !== "I'm not thinking of any number!") {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch13_optionals.re",
+          "ch13_optionals.res",
           25,
           0
         ],
@@ -28,7 +28,7 @@ if (whatNumberAmIThinking(7) !== "My number is: 7") {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch13_optionals.re",
+          "ch13_optionals.res",
           27,
           0
         ],
@@ -48,8 +48,8 @@ function safeDivide(dividend, divisor) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch13_optionals.re",
-          43,
+          "ch13_optionals.res",
+          42,
           42
         ],
         Error: new Error()
@@ -60,8 +60,8 @@ function safe_int_of_char(c) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch13_optionals.re",
-          46,
+          "ch13_optionals.res",
+          45,
           28
         ],
         Error: new Error()
@@ -76,9 +76,9 @@ TestUtils$Part2Workshop.runTests("Ch13_optionals-Part2Workshop", (function (para
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch13_optionals.re",
-                        52,
-                        6
+                        "ch13_optionals.res",
+                        49,
+                        4
                       ],
                       Error: new Error()
                     };
@@ -90,9 +90,9 @@ TestUtils$Part2Workshop.runTests("Ch13_optionals-Part2Workshop", (function (para
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch13_optionals.re",
-                        55,
-                        6
+                        "ch13_optionals.res",
+                        52,
+                        4
                       ],
                       Error: new Error()
                     };
@@ -104,9 +104,9 @@ TestUtils$Part2Workshop.runTests("Ch13_optionals-Part2Workshop", (function (para
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch13_optionals.re",
-                        58,
-                        6
+                        "ch13_optionals.res",
+                        55,
+                        4
                       ],
                       Error: new Error()
                     };
@@ -118,9 +118,9 @@ TestUtils$Part2Workshop.runTests("Ch13_optionals-Part2Workshop", (function (para
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch13_optionals.re",
-                        61,
-                        6
+                        "ch13_optionals.res",
+                        58,
+                        4
                       ],
                       Error: new Error()
                     };
@@ -132,9 +132,9 @@ TestUtils$Part2Workshop.runTests("Ch13_optionals-Part2Workshop", (function (para
                       throw {
                             RE_EXN_ID: "Assert_failure",
                             _1: [
-                              "ch13_optionals.re",
-                              64,
-                              6
+                              "ch13_optionals.res",
+                              61,
+                              4
                             ],
                             Error: new Error()
                           };

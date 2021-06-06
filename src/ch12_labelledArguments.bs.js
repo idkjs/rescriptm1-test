@@ -12,7 +12,7 @@ function modulo(dividend, divisor) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch12_labelledArguments.re",
+          "ch12_labelledArguments.res",
           57,
           38
         ],
@@ -28,9 +28,9 @@ TestUtils$Part2Workshop.runTests("Ch12_labelledArguments-Part2Workshop", (functi
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch12_labelledArguments.re",
-                        63,
-                        6
+                        "ch12_labelledArguments.res",
+                        60,
+                        50
                       ],
                       Error: new Error()
                     };
@@ -42,9 +42,9 @@ TestUtils$Part2Workshop.runTests("Ch12_labelledArguments-Part2Workshop", (functi
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch12_labelledArguments.re",
-                        66,
-                        6
+                        "ch12_labelledArguments.res",
+                        61,
+                        50
                       ],
                       Error: new Error()
                     };
@@ -56,9 +56,9 @@ TestUtils$Part2Workshop.runTests("Ch12_labelledArguments-Part2Workshop", (functi
                       throw {
                             RE_EXN_ID: "Assert_failure",
                             _1: [
-                              "ch12_labelledArguments.re",
-                              69,
-                              6
+                              "ch12_labelledArguments.res",
+                              63,
+                              4
                             ],
                             Error: new Error()
                           };

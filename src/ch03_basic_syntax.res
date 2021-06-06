@@ -16,8 +16,8 @@
 
  For further reading: https://reasonml.github.io/docs/en/integer-and-float
  */
-let intFour = 4;
-let floatFour = 4.;
+let intFour = 4
+let floatFour = 4.
 
 /*
  Signatures
@@ -25,12 +25,11 @@ let floatFour = 4.;
  You can explicitly write the type of a variable (like in the following example)
  but this is totally optional, no need to write them
  */
-let intFourWithSignature: int = 4;
-let floatFourWithSignature: float = 4.;
+let intFourWithSignature: int = 4
+let floatFourWithSignature: float = 4.
 
 /* Uncomment the following line to see the compilation error */
 /* let seven: float = 7; */
-
 
 /*
   String and Chars (https://reasonml.github.io/docs/en/string-and-char):
@@ -39,13 +38,12 @@ let floatFourWithSignature: float = 4.;
   String concatenation is done with the ++ operator.
  */
 
-let firstName = "Sponge";
-let lastName = "Bob";
+let firstName = "Sponge"
+let lastName = "Bob"
 
-let myHero = firstName ++ " " ++ lastName;
+let myHero = firstName ++ (" " ++ lastName)
 
-assert("Sponge Bob" == myHero);
-
+assert ("Sponge Bob" == myHero)
 
 /*
  Booleans (https://reasonml.github.io/docs/en/boolean):
@@ -56,8 +54,8 @@ assert("Sponge Bob" == myHero);
  !  for logical not
  */
 
-let aBooleanFalse = false;
-assert(true == !aBooleanFalse);
+let aBooleanFalse = false
+assert (true == !aBooleanFalse)
 
 /*
  Function signatures
@@ -77,25 +75,20 @@ assert(true == !aBooleanFalse);
  over the function name to see it
  */
 
-let intMult = (x, y) => x * y;
+let intMult = (x, y) => x * y
 
-let floatMult = (x, y) => x *. y;
+let floatMult = (x, y) => x *. y
 
 /*
  Note: In Reason there's no explicit return statement, just like Ruby / Perl
  Functions return the value of the last expression in that function.
  */
 let verboseMult = (n, m) => {
-  Js.log(
-    "I'm multiplying two numbers: "
-    ++ string_of_int(n)
-    ++ " "
-    ++ string_of_int(m),
-  );
+  Js.log("I'm multiplying two numbers: " ++ (string_of_int(n) ++ (" " ++ string_of_int(m))))
 
   /* Look ma! no return! */
-  n * m;
-};
+  n * m
+}
 
 /*
    The [unit] type (https://reasonml.github.io/docs/en/function.html#no-argument)
@@ -109,64 +102,52 @@ let verboseMult = (n, m) => {
 
    hover your mouse over the following functions and look at their return type:
  */
-Js.log;
-Node.Process.exit;
-Dom.Storage.setItem;
+Js.log
+Node.Process.exit
+Dom.Storage.setItem
 
 /*
    In cases where the function needs no input, in Reason it must receive a value so we
    pass in `()`. hover your mouse over the following functions and look at their input type:
  */
-Js.Date.now;
-Js.Math.random;
+Js.Date.now
+Js.Math.random
 
 /*
    Please note that we invoke `Js.Math.random()` but this is just
    syntactic suger for `Js.Math.random(())`
  */
-Js.log("I picked a random number: " ++ string_of_float(Js.Math.random()));
+Js.log("I picked a random number: " ++ string_of_float(Js.Math.random()))
 
 /*
  IMPLEMENT ME
  Write a function the returns the average of two ints
  */
-let intAverage = (x, y) => assert(false);
+let intAverage = (x, y) => assert false
 
 /*
  IMPLEMENT ME
  Write a function the returns the average of two floats
  */
-let floatAverage = (x, y) => assert(false);
+let floatAverage = (x, y) => assert false
 
 /*
  IMPLEMENT ME
  Write a function that returns the square of x
  */
-let square = x => assert(false);
+let square = x => assert false
 
 /*
  IMPLEMENT ME
  Write a function that receives a first, middle, last name and returns the full name
  */
-let fullName = (firstName, middleName, lastName) => assert(false);
+let fullName = (firstName, middleName, lastName) => assert false
 
-
-TestUtils.runTests(
-  __MODULE__,
-  () => {
-    TestUtils.test("should calculate int average", () =>
-      assert(intAverage(3, 5) == 4)
-    );
-    TestUtils.test("should calculate float average", () =>
-      assert(floatAverage(5., 10.) == 7.5)
-    );
-    TestUtils.test("should calculate square", () =>
-      assert(square(6) == 36)
-    );
-    TestUtils.test("should generate a full name", () =>
-      assert(
-        "Shlomi Toussia Cohen" === fullName("Shlomi", "Toussia", "Cohen"),
-      )
-    );
-  },
-);
+TestUtils.runTests(__MODULE__, () => {
+  TestUtils.test("should calculate int average", () => assert (intAverage(3, 5) == 4))
+  TestUtils.test("should calculate float average", () => assert (floatAverage(5., 10.) == 7.5))
+  TestUtils.test("should calculate square", () => assert (square(6) == 36))
+  TestUtils.test("should generate a full name", () =>
+    assert ("Shlomi Toussia Cohen" === fullName("Shlomi", "Toussia", "Cohen"))
+  )
+})

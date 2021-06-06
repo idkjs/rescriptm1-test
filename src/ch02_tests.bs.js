@@ -7,7 +7,7 @@ function getSeven(param) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch02_tests.re",
+          "ch02_tests.res",
           13,
           21
         ],
@@ -23,9 +23,9 @@ TestUtils$Part2Workshop.runTests("Ch02_tests-Part2Workshop", (function (param) {
                       throw {
                             RE_EXN_ID: "Assert_failure",
                             _1: [
-                              "ch02_tests.re",
-                              17,
-                              4
+                              "ch02_tests.res",
+                              16,
+                              42
                             ],
                             Error: new Error()
                           };

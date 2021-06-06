@@ -1,4 +1,4 @@
-/* 
+/*
   FFI / Interop (https://reasonml.github.io/docs/en/external)
   ===================
   "FFI" (foreign function interface), or simply "interop" (for "interoperability") is how Reason 
@@ -11,11 +11,11 @@
   Lets take a look at the following code:
 */
 
-[@bs.val]
-external sqrtFromJs : float => float = "Math.sqrt";
-assert(4. == sqrtFromJs(16.0))
+@val
+external sqrtFromJs: float => float = "Math.sqrt"
+assert (4. == sqrtFromJs(16.0))
 
-/* 
+/*
   We declared a new Reason value named `sqrtFromJs`. It's type is `float => float`, and from here on we can
   use it like any other value. During compilation, the `[@bs.val]` annotation and `external` keyword tell the 
   BuckleScript compiler that this is an external value, and it's implementation is the `Math.sqrt` function in
@@ -27,28 +27,28 @@ assert(4. == sqrtFromJs(16.0))
  */
 
 /* Lets take a look at another example: */
-[@bs.val]
-external logFromJs : string => unit = "console.log";
-logFromJs("heyo from js \\(^_^)/ ");
+@val
+external logFromJs: string => unit = "console.log"
+logFromJs("heyo from js \\(^_^)/ ")
 
-/* 
+/*
   There exist many BuckleScript annotations to make it easy to write bindings. For example, you can use 
   the `[@bs.scope]` annotation instead of writing the namespace explicitly
  */
-[@bs.val] [@bs.scope "Math"]
-external sqrtFromJs : float => float = "sqrt";
-assert(4. == sqrtFromJs(16.0))
+@val @scope("Math")
+external sqrtFromJs: float => float = "sqrt"
+assert (4. == sqrtFromJs(16.0))
 
-[@bs.val] [@bs.scope "console"] 
-external consoleLog : string => unit = "log";
-consoleLog("heyo from js \\(^_^)/ with @bs.scope ");
+@val @scope("console")
+external consoleLog: string => unit = "log"
+consoleLog("heyo from js \\(^_^)/ with @bs.scope ")
 
 /* There are a bunch of built-in bindings you are probably familiar with. For example: */
-Dom.Storage.getItem;
-Node.Fs.readFileAsUtf8Sync;
-Js.log;
+Dom.Storage.getItem
+Node.Fs.readFileAsUtf8Sync
+Js.log
 
-/* 
+/*
 If you try to go to their definition (Cmd + left-click) you can see the BuckleScript bindings for those 
 modules. For more information on bindings go to: https://bucklescript.github.io/bucklescript/Manual.html#_ffi 
 

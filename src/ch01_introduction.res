@@ -17,7 +17,7 @@
  Now look in the `ch01_introduction.bs.js` file created. The following line was 
  compiled into `console.log("Hello, World!")
  */
-Js.log("Hello, World!!");
+Js.log("Hello, World!!")
 
 /*
  Run the following command in a separate terminal window:
@@ -42,7 +42,4 @@ Js.log("Hello, World!!");
 
  Use it!
  */
-Js.log(
-  "Hello again!"
-  
-);
+Js.log("Hello again!")

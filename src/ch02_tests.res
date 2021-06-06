@@ -10,10 +10,8 @@
  */
 
 /* IMPLEMENT ME */
-let getSeven = () => assert(false);
+let getSeven = () => assert false
 
 TestUtils.runTests(__MODULE__, () =>
-  TestUtils.test("should return 7", () =>
-    assert(7 === getSeven())
-  )
-);
+  TestUtils.test("should return 7", () => assert (7 === getSeven()))
+)

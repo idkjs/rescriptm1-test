@@ -8,7 +8,7 @@ function addEveryNumberUpTo(x) {
     throw {
           RE_EXN_ID: "Assert_failure",
           _1: [
-            "ch05_recursion.re",
+            "ch05_recursion.res",
             10,
             2
           ],
@@ -27,7 +27,7 @@ function factorial(x) {
     throw {
           RE_EXN_ID: "Assert_failure",
           _1: [
-            "ch05_recursion.re",
+            "ch05_recursion.res",
             22,
             2
           ],
@@ -37,7 +37,7 @@ function factorial(x) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch05_recursion.re",
+          "ch05_recursion.res",
           25,
           2
         ],
@@ -53,9 +53,9 @@ TestUtils$Part2Workshop.runTests("Ch05_recursion-Part2Workshop", (function (para
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch05_recursion.re",
-                        32,
-                        6
+                        "ch05_recursion.res",
+                        29,
+                        56
                       ],
                       Error: new Error()
                     };
@@ -67,9 +67,9 @@ TestUtils$Part2Workshop.runTests("Ch05_recursion-Part2Workshop", (function (para
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch05_recursion.re",
-                        35,
-                        6
+                        "ch05_recursion.res",
+                        30,
+                        56
                       ],
                       Error: new Error()
                     };
@@ -81,9 +81,9 @@ TestUtils$Part2Workshop.runTests("Ch05_recursion-Part2Workshop", (function (para
                       throw {
                             RE_EXN_ID: "Assert_failure",
                             _1: [
-                              "ch05_recursion.re",
-                              38,
-                              6
+                              "ch05_recursion.res",
+                              31,
+                              58
                             ],
                             Error: new Error()
                           };

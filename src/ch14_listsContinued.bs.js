@@ -16,7 +16,7 @@ if (!Caml_obj.caml_equal(1, 1)) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch14_listsContinued.re",
+          "ch14_listsContinued.res",
           15,
           0
         ],
@@ -28,7 +28,7 @@ function nth(n, list) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch14_listsContinued.re",
+          "ch14_listsContinued.res",
           26,
           27
         ],
@@ -40,7 +40,7 @@ function find(predicate, list) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch14_listsContinued.re",
+          "ch14_listsContinued.res",
           36,
           36
         ],
@@ -52,7 +52,7 @@ function map(fn, list) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch14_listsContinued.re",
+          "ch14_listsContinued.res",
           45,
           28
         ],
@@ -64,7 +64,7 @@ function filter(predicate, list) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch14_listsContinued.re",
+          "ch14_listsContinued.res",
           54,
           38
         ],
@@ -76,7 +76,7 @@ function reduce(fn, init, list) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch14_listsContinued.re",
+          "ch14_listsContinued.res",
           62,
           37
         ],
@@ -114,9 +114,9 @@ TestUtils$Part2Workshop.runTests("Ch14_listsContinued-Part2Workshop", (function 
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch14_listsContinued.re",
-                        71,
-                        6
+                        "ch14_listsContinued.res",
+                        68,
+                        53
                       ],
                       Error: new Error()
                     };
@@ -128,9 +128,9 @@ TestUtils$Part2Workshop.runTests("Ch14_listsContinued-Part2Workshop", (function 
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch14_listsContinued.re",
-                        74,
-                        6
+                        "ch14_listsContinued.res",
+                        70,
+                        4
                       ],
                       Error: new Error()
                     };
@@ -151,9 +151,9 @@ TestUtils$Part2Workshop.runTests("Ch14_listsContinued-Part2Workshop", (function 
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch14_listsContinued.re",
-                        77,
-                        6
+                        "ch14_listsContinued.res",
+                        73,
+                        4
                       ],
                       Error: new Error()
                     };
@@ -185,9 +185,9 @@ TestUtils$Part2Workshop.runTests("Ch14_listsContinued-Part2Workshop", (function 
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch14_listsContinued.re",
-                        80,
-                        6
+                        "ch14_listsContinued.res",
+                        76,
+                        4
                       ],
                       Error: new Error()
                     };
@@ -208,9 +208,9 @@ TestUtils$Part2Workshop.runTests("Ch14_listsContinued-Part2Workshop", (function 
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch14_listsContinued.re",
-                        84,
-                        6
+                        "ch14_listsContinued.res",
+                        80,
+                        4
                       ],
                       Error: new Error()
                     };
@@ -224,9 +224,9 @@ TestUtils$Part2Workshop.runTests("Ch14_listsContinued-Part2Workshop", (function 
                       throw {
                             RE_EXN_ID: "Assert_failure",
                             _1: [
-                              "ch14_listsContinued.re",
-                              87,
-                              6
+                              "ch14_listsContinued.res",
+                              82,
+                              47
                             ],
                             Error: new Error()
                           };

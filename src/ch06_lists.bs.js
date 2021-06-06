@@ -17,7 +17,7 @@ function sum(intList) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch06_lists.re",
+          "ch06_lists.res",
           27,
           25
         ],
@@ -29,8 +29,8 @@ function product(intList) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch06_lists.re",
-          36,
+          "ch06_lists.res",
+          34,
           29
         ],
         Error: new Error()
@@ -41,8 +41,8 @@ function maxElement(intList) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch06_lists.re",
-          49,
+          "ch06_lists.res",
+          45,
           32
         ],
         Error: new Error()
@@ -53,8 +53,8 @@ function minElement(intList) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch06_lists.re",
-          58,
+          "ch06_lists.res",
+          52,
           32
         ],
         Error: new Error()
@@ -65,8 +65,8 @@ function join(intList) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch06_lists.re",
-          70,
+          "ch06_lists.res",
+          62,
           26
         ],
         Error: new Error()
@@ -103,8 +103,8 @@ if (!Caml_obj.caml_equal({
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch06_lists.re",
-          81,
+          "ch06_lists.res",
+          71,
           0
         ],
         Error: new Error()
@@ -127,8 +127,8 @@ if (!Caml_obj.caml_equal({
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch06_lists.re",
-          82,
+          "ch06_lists.res",
+          72,
           0
         ],
         Error: new Error()
@@ -151,8 +151,8 @@ if (!Caml_obj.caml_equal({
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch06_lists.re",
-          83,
+          "ch06_lists.res",
+          73,
           0
         ],
         Error: new Error()
@@ -163,8 +163,8 @@ function reverse(list) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch06_lists.re",
-          91,
+          "ch06_lists.res",
+          81,
           35
         ],
         Error: new Error()
@@ -201,9 +201,9 @@ TestUtils$Part2Workshop.runTests("Ch06_lists-Part2Workshop", (function (param) {
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch06_lists.re",
-                        99,
-                        6
+                        "ch06_lists.res",
+                        86,
+                        63
                       ],
                       Error: new Error()
                     };
@@ -215,9 +215,9 @@ TestUtils$Part2Workshop.runTests("Ch06_lists-Part2Workshop", (function (param) {
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch06_lists.re",
-                        102,
-                        6
+                        "ch06_lists.res",
+                        88,
+                        4
                       ],
                       Error: new Error()
                     };
@@ -229,9 +229,9 @@ TestUtils$Part2Workshop.runTests("Ch06_lists-Part2Workshop", (function (param) {
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch06_lists.re",
-                        105,
-                        6
+                        "ch06_lists.res",
+                        90,
+                        59
                       ],
                       Error: new Error()
                     };
@@ -243,9 +243,9 @@ TestUtils$Part2Workshop.runTests("Ch06_lists-Part2Workshop", (function (param) {
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch06_lists.re",
-                        108,
-                        6
+                        "ch06_lists.res",
+                        91,
+                        59
                       ],
                       Error: new Error()
                     };
@@ -257,9 +257,9 @@ TestUtils$Part2Workshop.runTests("Ch06_lists-Part2Workshop", (function (param) {
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch06_lists.re",
-                        111,
-                        6
+                        "ch06_lists.res",
+                        92,
+                        59
                       ],
                       Error: new Error()
                     };
@@ -292,9 +292,9 @@ TestUtils$Part2Workshop.runTests("Ch06_lists-Part2Workshop", (function (param) {
                       throw {
                             RE_EXN_ID: "Assert_failure",
                             _1: [
-                              "ch06_lists.re",
-                              114,
-                              6
+                              "ch06_lists.res",
+                              94,
+                              4
                             ],
                             Error: new Error()
                           };

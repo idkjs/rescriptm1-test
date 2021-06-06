@@ -14,9 +14,9 @@
  definitions are available from anywhere in the project like so:
  */
 
-Example.sayHi();
-assert(true == Example.isVowel('a'));
-assert(false == Example.isVowel('b'));
+Example.sayHi()
+assert (true == Example.isVowel('a'))
+assert (false == Example.isVowel('b'))
 
 /* This includes the previous chapters as well: */
 /* assert(4 == Ch03_basic_syntax.intAverage(2, 6)) */
@@ -25,11 +25,11 @@ assert(false == Example.isVowel('b'));
   You can also nest a module within a module using the `module` keyword:
  */
 module Inner = {
-  let even = n => n mod 2 == 0;
-};
+  let even = n => mod(n, 2) == 0
+}
 
-assert(true == Inner.even(106));
-assert(false == Inner.even(7));
+assert (true == Inner.even(106))
+assert (false == Inner.even(7))
 
 /*
   By default, the `Pervasives` module (https://reasonml.github.io/api/Pervasives.html)
@@ -51,9 +51,9 @@ assert(false == Inner.even(7));
   For example, the list functions we implemented in the previous chapter, and many more
   are available in the `List` module
  */
-let nums = [4, 5, 6, 7];
-assert(4 == List.length(nums));
-assert([7, 6, 5, 4] == List.rev(nums));
+let nums = list{4, 5, 6, 7}
+assert (4 == List.length(nums))
+assert (list{7, 6, 5, 4} == List.rev(nums))
 
 /*
    MAKE ME PASS

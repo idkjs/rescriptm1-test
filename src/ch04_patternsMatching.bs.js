@@ -15,7 +15,7 @@ function isVowel(str) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch04_patternsMatching.re",
+          "ch04_patternsMatching.res",
           18,
           21
         ],
@@ -27,7 +27,7 @@ function nonZero(n) {
   throw {
         RE_EXN_ID: "Assert_failure",
         _1: [
-          "ch04_patternsMatching.re",
+          "ch04_patternsMatching.res",
           25,
           19
         ],
@@ -43,9 +43,9 @@ TestUtils$Part2Workshop.runTests("Ch04_patternsMatching-Part2Workshop", (functio
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch04_patternsMatching.re",
-                        31,
-                        6
+                        "ch04_patternsMatching.res",
+                        28,
+                        51
                       ],
                       Error: new Error()
                     };
@@ -57,9 +57,9 @@ TestUtils$Part2Workshop.runTests("Ch04_patternsMatching-Part2Workshop", (functio
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch04_patternsMatching.re",
-                        34,
-                        6
+                        "ch04_patternsMatching.res",
+                        29,
+                        55
                       ],
                       Error: new Error()
                     };
@@ -71,9 +71,9 @@ TestUtils$Part2Workshop.runTests("Ch04_patternsMatching-Part2Workshop", (functio
                 throw {
                       RE_EXN_ID: "Assert_failure",
                       _1: [
-                        "ch04_patternsMatching.re",
-                        37,
-                        6
+                        "ch04_patternsMatching.res",
+                        30,
+                        51
                       ],
                       Error: new Error()
                     };
@@ -85,9 +85,9 @@ TestUtils$Part2Workshop.runTests("Ch04_patternsMatching-Part2Workshop", (functio
                       throw {
                             RE_EXN_ID: "Assert_failure",
                             _1: [
-                              "ch04_patternsMatching.re",
-                              40,
-                              6
+                              "ch04_patternsMatching.res",
+                              31,
+                              48
                             ],
                             Error: new Error()
                           };
