@@ -7,11 +7,13 @@
     "test": "./run_tests",
     "clean": "bsb -clean-world"
   },
-  "keywords": [ "ReScript" ],
+  "keywords": [
+    "ReScript"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
-    "rescript": "^10.0.0-dev.1"
+    "rescript": "10.0.0-m1"
   }
 }
