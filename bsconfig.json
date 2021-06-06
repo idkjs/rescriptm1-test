@@ -1,0 +1,24 @@
+
+{
+  "name": "part2-workshop",
+  "version": "0.1.0",
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+
+  "warnings": {
+    "number": "-109-39-27",
+    "error" : "+101"
+  },
+  "namespace": true,
+
+  "bsc-flags": [
+    "-bs-super-errors"
+  ]
+}

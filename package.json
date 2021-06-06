@@ -1,0 +1,17 @@
+{
+  "name": "test-m1",
+  "version": "0.1.0",
+  "scripts": {
+    "re:build": "rescript",
+    "re:start": "rescript build -w",
+    "test": "./run_tests",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [ "ReScript" ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "rescript": "^10.0.0-dev.1"
+  }
+}
